@@ -48,5 +48,7 @@ section :hover{
     text-decoration-thickness: 2px;
 
 }
+li:hover::before,
+li:hover::after{
+    content:  "🙂" ;
 }
-
